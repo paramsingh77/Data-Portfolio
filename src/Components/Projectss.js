@@ -2,18 +2,13 @@ import React from 'react'
 import '../styles/work.css'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { FaGithub } from "react-icons/fa";
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import ern from '../images/ern.png' 
 import nearme from '../images/nearme.png'
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 const Projectss = () => {
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
-    const handleNavigation = () => {
-        console.log("navigating to projects");
-        
-        navigate('/projects')
-    }
 
   return (
     <div className='project-section'>
@@ -21,10 +16,12 @@ const Projectss = () => {
             <div>
             featured projects
             </div>
-            <div className='small' onClick={handleNavigation}>
-                more projects <ArrowForwardIcon className='arrow'/>
-                
+            <Link to={'/projects'}>
+            <div className='small'>
+             more projects <ArrowForwardIcon className='arrow'/>
             </div>
+            </Link>
+          
         </div>
         <div className='card-holder'>
             <div className='card'>

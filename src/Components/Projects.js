@@ -92,8 +92,7 @@ const MobileVersion = () => {
             <div className='role3'>Bachelor's of Science in Computer Science</div>
             <div className='points3'>
               <ul>
-                <li className='lis3'>Developed the Java backend for a bank account servicing process with multiple channel integrations using Activiti workflow</li>
-                <li className='lis3'>Built a custom database migration tool using Python and MariaDB and facilitated the migration of 1000+ processes from a vendor platform</li>
+              <b>Related Coursework:</b> Data Structures & Algorithms, Computer Organization & Programming, Machine Learning, Artificial Intelligence, Object Oriented Design, Operating Systems
               </ul>
             </div>
           </div>

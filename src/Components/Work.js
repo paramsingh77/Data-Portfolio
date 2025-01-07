@@ -60,7 +60,7 @@ const WebScreen = () => {
     }
   }}
 >
-       <img style={{height:'40px', width:'40px', objectFit:'cover', borderRadius:'50%', backgroundColor:'gray'}} src="https://www.professors.directory/gallery/1277_al-university_of_north_alabama_xmw.jpg" alt="ele"/>
+       <img style={{height:'40px', width:'40px', objectFit:'cover', borderRadius:'50%', backgroundColor:'gray'}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw-kscLgxvLG0EwEnn81o4SCSoxNmGDXng-w&s" alt="ele"/>
          </TimelineDot>
          </div>
           <TimelineConnector />
@@ -69,13 +69,22 @@ const WebScreen = () => {
         </TimelineSeparator>
         <TimelineContent className=''>
         <div>
-          <div className='date'>January 2023 - May 2024</div>
-          <div className='work-place'>University of North Alabama</div>
-          <div className='role'>Web Dev & Computer Science Tutor</div>
+          <div className='date'>July 2024 - Present</div>
+          <div className='work-place'>Universal Health Services</div>
+          <div className='role'>Data Analyst</div>
           <div className='points'>
             <ul>
-            <li className='lis'>Developed the Java backend for a bank account servicing process with multiple channel integrations using Activiti workflow</li>
-            <li className='lis'>Built a custom database migration tool using Python and MariaDB and facilitated the migration of 1000+ processes from a vendor platform</li>
+            <li className='lis'> Evaluated and enhanced the current data model to meet healthcare industry standards and requirements.</li>
+            <li className='lis'>Collaborated with cross-functional teams using Agile methodology, resulting in an increase in project efficiency and on-time delivery
+            of data analytics solutions.</li>
+            <li className='lis'>Incorporated AWS services like S3 bucket & Redshift to manage and analyze healthcare data securely, resulting in 30% improvement
+            in data processing speed.</li>
+            <li className='lis'>Designed interactive dashboards using Tableau and Power BI, providing actionable insights to healthcare teams, leading to a 20%
+            increase in patient satisfaction scores.</li>
+            <li className='lis'>Developed and maintained ETL pipelines using Python and SQL to streamline EDI download and financial data analysis processes,
+            supporting production and material planning.</li>
+            <li className='lis'>Conducted graphical analysis of healthcare datasets using Python to obtain insights into patient demographics and treatment
+            outcomes</li>
             </ul>
           </div>
         </div>
@@ -84,7 +93,7 @@ const WebScreen = () => {
       <TimelineItem className='t2'>
         <TimelineSeparator>
           <TimelineDot>
-            <img style={{height:'40px', width:'40px', objectFit:'cover', padding:-10, borderRadius:'50%', backgroundColor:'gray'}} src="https://pics.craiyon.com/2024-09-12/u0omXX-VSfaJSn0BCUUpcA.webp" alt="ele"/>
+            <img style={{height:'40px', width:'40px', objectFit:'cover', padding:-10, borderRadius:'50%', backgroundColor:'gray'}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHAAl79cWgfMIM5xgBAC9a6BkiR4XzAl_JNQ&s" alt="ele"/>
          </TimelineDot>
           <TimelineConnector />
           <TimelineConnector/>
@@ -92,14 +101,17 @@ const WebScreen = () => {
         </TimelineSeparator>
         <TimelineContent>
         <div>
-          <div className='date'>May 2020 - July 2021</div>
-          <div className='work-place'>DevTech Solutions</div>
-          <div className='role'>Python Developer</div>
+          <div className='date'>Jan 2020 - July 2022</div>
+          <div className='work-place'>Byte Tech Solutions</div>
+          <div className='role'>Data Analyst</div>
           <div className='points'>
             <ul>
-            <li className='lis'>Assisted in developing backend services using Python and Flask for a client’s project</li>
-            <li className='lis'>Created and executed 5+ test cases, contributing to the delivery of quality software products</li>
-            <li className='lis'>Participated in integration testing for 2 releases, gaining experience in quality assurance processes
+            <li className='lis'>Applied DAX functions to create interactive and insightful dashboards in Power BI, which enhanced data visualization
+            capabilities and improved stakeholder engagement.t</li>
+            <li className='lis'>Developed and maintained interactive Power BI dashboards providing real-time insights into KPIs, leading to an increase
+            in decision-making speed.</li>
+            <li className='lis'>Optimized data pipelines to ensure efficient data flow and processing, resulting in a 15% reduction in processing time.
+            <li className='lis'> Improved data models and cleansed data using SQL ensuring high-quality data for projects.</li>
             </li>
             </ul>
           </div>
